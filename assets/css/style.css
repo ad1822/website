@@ -141,7 +141,7 @@ button {
 
 
 .description-page-2 {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .building-image {
@@ -160,7 +160,6 @@ button {
 .stats-container {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
   padding: 20px;
   color: white;
   background-color: #FF8D41;
@@ -233,10 +232,106 @@ button {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 100px;
+  gap: 20px;
 }
 
+
 .service-seperate-container {
+  border: 1px solid #EEEEEE;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 300px;
+  padding: 5px;
+  background-size: cover;
+}
+
+.feedback-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+}
+
+.feedback-image {
+  width: 20px;
+  height: 20px;
+}
+
+.feedback-seperate-container {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 15%;
+}
+
+
+.feedback-description {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.feedback-author {
+  font-size: 12px;
+}
+
+.feedback-mail {
+  font-size: 10px;
+}
+
+.feedback-description,
+.feedback-mail {
+  color: gray;
+}
+
+.footer {
+  padding: 50px;
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-footer {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  padding: 10px;
+  align-content: space-evenly;
+}
+
+.footer-text {
+  color: gray;
+  font-size: 10px;
+}
+
+
+.quick-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.links {
+  color: gray;
+  font-size: 10px;
+  align-items: center;
+  text-align: start;
+}
+
+.seperate-quick-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }

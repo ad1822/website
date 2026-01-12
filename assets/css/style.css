@@ -26,7 +26,15 @@ button {
 /*   font-family: "Poltawski Nowy", serif; */
 /* } */
 
-.stay {
+.logo {
+  font-size: 30px;
+}
+
+.logout {
+  font-size: 15px;
+}
+
+.orange {
   font-weight: bold;
   color: #F9924D;
 }
@@ -53,6 +61,7 @@ button {
 }
 
 .navlinks {
+  font-size: 12px;
   width: 400px;
   list-style: none;
   display: flex;
@@ -135,7 +144,8 @@ button {
 }
 
 .heading-page-2 {
-  margin: 20px 0px;
+  font-size: 30px;
+  margin: 10px 0px;
 }
 
 
